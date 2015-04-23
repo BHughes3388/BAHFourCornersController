@@ -15,6 +15,10 @@ Runs smooth on IOS 8
 
 Needs a little work to orientation detection to work on < IOS 8
 
+## Preview
+
+![](http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/IMG_0989_zpslf0dcmls.png)
+
 ## Installation
 
 BAHFourCornersController is available through [CocoaPods](http://cocoapods.org). To install
@@ -26,7 +30,10 @@ pod "BAHFourCornersController"
 
 ## Setup
 
-Import ```Objective-C #import "BAHFourCornersViewController.h" ```
+Import to your AppDelegate
+```Objective-C
+#import "BAHFourCornersViewController.h"
+```
 
 get recerence to BAHFourCornersViewController or initalize and add to Self.window.rootViewController
 ```Objective-C
@@ -40,11 +47,15 @@ Build your view controllers and set them to the corner you want with
 
 Build you buttons and add them using
 ```Objective-C
-fourCorners.topLeftButton = button1;
+[fourCorners setTopLeftButton = button1];
 ```
 
-Look at the DemoApp AppDelegate.m for more setup configurations to the buttons including button size, insets, image insets, and more.
+Look at the BAHFourCornersViewController.h for more setup configurations to the buttons including button size, insets, image insets, and more.
 
+Finally initalize Four Corners with
+```Objective-C
+[fourCorners initalizeFourCorners];
+```
 
 ## Author
 
