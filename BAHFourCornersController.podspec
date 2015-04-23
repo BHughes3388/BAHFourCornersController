@@ -9,19 +9,19 @@
 
 Pod::Spec.new do |s|
   s.name             = "BAHFourCornersController"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of BAHFourCornersController."
+  s.version          = "0.0.1"
+  s.summary          = "Four Corner Container Controller"
   s.description      = <<-DESC
-                       An optional longer description of BAHFourCornersController
+                       A view container allowing up to 5 view controllers total, the main view controller and one for each corner.
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BAHFourCornersController"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/BHughes3388/BAHFourCornersController"
+  # s.screenshots     = "http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/4695aaf3-09b8-43e0-ba3f-490ba26918b0_zpszoe2ncbi.png"
   s.license          = 'MIT'
   s.author           = { "BHughes3388" => "BHughes3388@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BAHFourCornersController.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/BHughes3388/BAHFourCornersController.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
