@@ -2,6 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'BAHFourCornersController', :exclusive => true do
   pod "BAHFourCornersController", :path => "../"
+
 end
 
 target 'Tests', :exclusive => true do

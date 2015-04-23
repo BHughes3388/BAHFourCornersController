@@ -1,0 +1,20 @@
+PODS:
+  - BAHFourCornersController (0.1.0)
+  - Expecta (0.4.2)
+  - Specta (0.5.0)
+
+DEPENDENCIES:
+  - BAHFourCornersController (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  BAHFourCornersController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BAHFourCornersController: cc60214d338ab5cf0c6fd3178020cb38ae565957
+  Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
+
+COCOAPODS: 0.35.0

@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QTouchposeApplication.h"
+#import "QAppDelegate.h"
+
 
 #import "BAHAppDelegate.h"
 
@@ -14,5 +17,6 @@ int main(int argc, char * argv[])
 {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([BAHAppDelegate class]));
+        
     }
 }

@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+#import "BAHFourCornersViewController.h"
+
+#import "BAHDemoMainViewController.h"
+#import "BAHDemoTopLeftViewController.h"
+#import "BAHDemoTopRightViewController.h"
+#import "BAHDemoBottomLeftViewController.h"
+#import "BAHDemoBottomRightViewController.h"
+
+
+
+
 @interface BAHAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
