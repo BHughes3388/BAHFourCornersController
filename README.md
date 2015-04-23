@@ -17,7 +17,7 @@ Needs a little work to orientation detection to work on < IOS 8
 
 ## Preview
 
-![](http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/IMG_0989_zpslf0dcmls.png)
+![](http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/4695aaf3-09b8-43e0-ba3f-490ba26918b0_zpszoe2ncbi.png)
 
 ## Installation
 
@@ -47,7 +47,7 @@ Build your view controllers and set them to the corner you want with
 
 Build you buttons and add them using
 ```Objective-C
-[fourCorners setTopLeftButton = button1];
+[fourCorners setTopLeftButton:button1];
 ```
 
 Look at the BAHFourCornersViewController.h for more setup configurations to the buttons including button size, insets, image insets, and more.
