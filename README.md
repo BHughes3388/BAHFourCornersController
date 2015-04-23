@@ -17,7 +17,7 @@ Needs a little work to orientation detection to work on < IOS 8
 
 ## Preview
 
-![](http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/4695aaf3-09b8-43e0-ba3f-490ba26918b0_zpszoe2ncbi.png) ![](http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/0e6ea995-7c8d-4878-a257-328d31688b34_zpslikfhm1j.gif)
+![](http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/4695aaf3-09b8-43e0-ba3f-490ba26918b0_zpszoe2ncbi.png) ![](http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/FourCorners_zpshhogzw9t.gif)
 
 ## Installation
 
