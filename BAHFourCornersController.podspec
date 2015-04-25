@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BAHFourCornersController"
-  s.version          = "0.0.1"
+  s.version          = "0.1.1"
   s.summary          = "Four Corner Container Controller"
   s.description      = <<-DESC
                        A view container allowing up to 5 view controllers total, the main view controller and one for each corner.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/BHughes3388/BAHFourCornersController"
-  # s.screenshots     = "http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/4695aaf3-09b8-43e0-ba3f-490ba26918b0_zpszoe2ncbi.png"
+  s.screenshots     = "http://img.photobucket.com/albums/v235/rx7anator/Mobile%20Applications/4695aaf3-09b8-43e0-ba3f-490ba26918b0_zpszoe2ncbi.png"
   s.license          = 'MIT'
   s.author           = { "BHughes3388" => "BHughes3388@gmail.com" }
   s.source           = { :git => "https://github.com/BHughes3388/BAHFourCornersController.git", :tag => s.version.to_s }

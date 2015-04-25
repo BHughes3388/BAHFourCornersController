@@ -403,6 +403,7 @@ typedef enum PinchDirection {
     [self.blurView setFrame:blurRect];
     [self buttonForSelectedView];
     
+    [self setButtons];
     
     //Corners were active, re animate them back to position.
     if (cornersWereActive) {
