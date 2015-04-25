@@ -87,7 +87,7 @@
     //Set the view controllers just like any normal TabBarController
     [fourCorners setViewControllers:[NSArray arrayWithObjects: navMain, navTopLeft, navTopRight, navBotLeft, navBotRight, nil] animated:NO];
     //Set the prefered Selected view
-    [fourCorners setSelectedViewController:navBotLeft];
+    [fourCorners setSelectedViewController:navMain];
     
     /*-----------------------------------------------------------------------------------------------------------------------------------------*/
     /*
