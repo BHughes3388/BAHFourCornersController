@@ -50,12 +50,12 @@ Build you buttons and add them using
 [fourCorners setTopLeftButton:button1];
 ```
 
-Look at the BAHFourCornersViewController.h for more setup configurations to the buttons including button size, insets, image insets, and more.
-
 Finally initalize Four Corners with
 ```Objective-C
 [fourCorners initalizeFourCorners];
 ```
+
+Look at the BAHFourCornersViewController.h for more setup configurations to the buttons including button size, insets, image insets, and more.
 
 ## Author
 
